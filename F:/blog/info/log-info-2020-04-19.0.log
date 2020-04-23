@@ -1,0 +1,1026 @@
+2020-04-19 11:25:08.626 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 11:25:08.634 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 11:25:08.640 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 11:25:08.651 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 11:25:11.098 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 36252 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 11:25:11.101 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 11:25:11.705 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 11:25:11.707 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 11:25:11.749 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 11:25:11.751 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 11:25:11.752 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 11:25:11.754 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 11:25:11.755 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 11:25:11.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 11:25:11.758 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 11:25:11.759 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 0 repository interfaces.
+2020-04-19 11:25:11.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 11:25:11.766 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 11:25:11.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 56ms. Found 7 repository interfaces.
+2020-04-19 11:25:11.835 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 11:25:11.836 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 11:25:11.848 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 11:25:11.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 11:25:11.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 11:25:11.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 11:25:11.849 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 11:25:11.850 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 11:25:11.850 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 11:25:11.850 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 11:25:12.142 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$1dc1c221] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 11:25:12.438 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 11:25:12.447 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 11:25:12.455 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 11:25:12.455 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 11:25:12.544 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 11:25:12.545 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1385 ms
+2020-04-19 11:25:12.680 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 11:25:12.770 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 11:25:12.808 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 11:25:12.860 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 11:25:12.981 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 11:25:13.085 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 11:25:13.744 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 11:25:13.747 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 11:25:14.864 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 11:25:14.945 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 11:25:15.421 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 11:25:15.444 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 11:25:15.446 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.902 seconds (JVM running for 5.998)
+2020-04-19 11:25:16.541 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 11:25:16.541 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 11:25:16.552 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-19 11:25:16.577 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-19 11:25:16.676 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : index
+2020-04-19 11:25:26.414 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@37da2538, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=2751253901E44543D20DE19B205D7935]}
+2020-04-19 11:25:26.418 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 11:25:26.422 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6b1d71f1, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=2751253901E44543D20DE19B205D7935]}
+2020-04-19 11:25:26.422 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 11:25:26.423 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], Product{id=2, jyTime=null, jyType='null', jrType='null', zqCode=null, zqname='null', jyprice='null', amount='null', money='null', customer=null}, {product=Product{id=2, jyTime=null, jyType='null', jrType='null', zqCode=null, zqname='null', jyprice='null', amount='null', money='null', customer=null}, org.springframework.validation.BindingResult.product=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, 2]}
+2020-04-19 14:04:17.113 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:04:17.115 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:04:17.118 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:04:17.121 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:04:19.345 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 43095 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:04:19.348 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:04:20.009 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:04:20.011 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:04:20.046 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:04:20.048 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:04:20.049 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:04:20.051 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:04:20.052 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:04:20.053 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:04:20.054 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:04:20.054 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 repository interfaces.
+2020-04-19 14:04:20.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:04:20.060 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:04:20.116 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 52ms. Found 7 repository interfaces.
+2020-04-19 14:04:20.124 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:04:20.125 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:04:20.138 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:04:20.139 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:04:20.140 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:04:20.140 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:04:20.140 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:04:20.141 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:04:20.141 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:04:20.141 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-04-19 14:04:20.435 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccec808e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:04:20.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:04:20.747 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:04:20.753 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:04:20.753 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:04:20.835 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:04:20.835 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1447 ms
+2020-04-19 14:04:20.972 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:04:21.074 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:04:21.114 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:04:21.168 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:04:21.293 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:04:21.406 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:04:22.111 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:04:22.113 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:04:23.162 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:04:23.236 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:04:23.710 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:04:23.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:04:23.740 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.132 seconds (JVM running for 5.906)
+2020-04-19 14:04:29.401 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:04:29.401 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:04:29.411 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-19 14:04:37.457 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6534d4, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=8BD2DD7F0BA5EEFA9842FFC401E0916A]}
+2020-04-19 14:04:37.460 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:04:37.465 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@524c7044, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=8BD2DD7F0BA5EEFA9842FFC401E0916A]}
+2020-04-19 14:04:37.465 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:04:37.466 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], com.nedlee.finance.vo.ProductQuery@6eb9c107, {productQuery=com.nedlee.finance.vo.ProductQuery@6eb9c107, org.springframework.validation.BindingResult.productQuery=org.springframework.validation.BeanPropertyBindingResult: 0 errors}, 2]}
+2020-04-19 14:04:37.473 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:04:37.473 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@11a93480, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=8BD2DD7F0BA5EEFA9842FFC401E0916A]}
+2020-04-19 14:04:37.473 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:07:33.435 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:07:33.438 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:07:33.440 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:07:33.443 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:07:35.579 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 43284 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:07:35.581 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:07:36.052 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:07:36.053 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:07:36.087 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:07:36.089 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:07:36.090 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:07:36.091 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:07:36.092 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:07:36.093 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:07:36.095 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:07:36.095 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-04-19 14:07:36.101 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:07:36.101 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:07:36.152 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 48ms. Found 7 repository interfaces.
+2020-04-19 14:07:36.160 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:07:36.161 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:07:36.174 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:07:36.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:07:36.175 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:07:36.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:07:36.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:07:36.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:07:36.176 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:07:36.176 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 14:07:36.468 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$dd92bfc6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:07:36.795 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:07:36.804 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:07:36.810 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:07:36.810 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:07:36.888 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:07:36.888 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1277 ms
+2020-04-19 14:07:37.013 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:07:37.115 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:07:37.153 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:07:37.205 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:07:37.335 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:07:37.445 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:07:38.124 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:07:38.127 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:07:39.201 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:07:39.280 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:07:39.770 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:07:39.801 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:07:39.803 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.679 seconds (JVM running for 5.599)
+2020-04-19 14:07:53.210 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:07:53.210 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:07:53.220 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-19 14:08:00.629 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@1272d2b2, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:00.632 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:00.633 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 14:08:00.640 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:08:00.640 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@441f5f64, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:00.641 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:04.975 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/input', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.input', args=[{}]}
+2020-04-19 14:08:04.975 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product-input
+2020-04-19 14:08:04.975 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/input', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2d9c99c9, ServletWebRequest: uri=/cclogin/products/input;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:04.975 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:14.141 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4852b571, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:14.141 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:14.146 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2c016ab5, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:14.146 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:14.146 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4c041cd1, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:14.147 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:14.147 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.post', args=[Product{id=null, jyTime=null, jyType='买入', jrType='债券', zqCode=108743, zqname='中天债券', jyprice='50', amount='500', money='2500', customer=null}, org.apache.catalina.session.StandardSessionFacade@6e01c43, {}, 2]}
+2020-04-19 14:08:14.172 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : redirect:/cclogin/products/{id}
+2020-04-19 14:08:14.188 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@18cd1b4, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:14.189 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:08:14.189 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {message=新增成功！}, 2]}
+2020-04-19 14:08:14.191 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:08:14.191 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@679ac2e5, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=62780D9692D445422831F8BC9A612A16]}
+2020-04-19 14:08:14.192 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:36:08.607 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:36:08.609 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:36:08.614 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:36:08.618 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:36:11.083 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 44526 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:36:11.085 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:36:11.636 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:36:11.638 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:36:11.673 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:36:11.674 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:36:11.676 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:36:11.677 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:36:11.679 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:36:11.680 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:36:11.681 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:36:11.681 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2020-04-19 14:36:11.688 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:36:11.688 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:36:11.737 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 45ms. Found 7 repository interfaces.
+2020-04-19 14:36:11.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:36:11.746 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:36:11.756 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:36:11.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:36:11.757 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:36:11.758 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:36:11.758 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:36:11.758 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:36:11.758 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:36:11.758 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 14:36:12.039 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d24ee5b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:36:12.361 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:36:12.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:36:12.378 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:36:12.378 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:36:12.461 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:36:12.461 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1325 ms
+2020-04-19 14:36:12.583 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:36:12.679 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:36:12.718 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:36:12.769 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:36:12.886 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:36:13.014 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:36:13.679 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:36:13.682 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:36:14.653 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:36:14.728 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:36:15.257 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:36:15.280 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:36:15.282 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.52 seconds (JVM running for 4.936)
+2020-04-19 14:36:21.643 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:36:21.643 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:36:21.654 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-19 14:36:29.719 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@16472a47, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=AD816D24D9731000BAC3BD164E78FA24]}
+2020-04-19 14:36:29.722 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:36:29.723 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 14:36:29.734 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:36:29.734 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4eac8902, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=AD816D24D9731000BAC3BD164E78FA24]}
+2020-04-19 14:36:29.735 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:39:25.386 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:39:25.387 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:39:25.391 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:39:25.394 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:39:27.314 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 44712 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:39:27.344 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:39:27.801 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:27.802 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:27.832 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:39:27.833 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:39:27.834 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:39:27.836 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:39:27.837 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:39:27.838 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:39:27.839 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:39:27.839 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2020-04-19 14:39:27.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:27.845 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:27.882 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 7 repository interfaces.
+2020-04-19 14:39:27.888 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:27.889 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:27.898 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:39:27.899 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:39:27.899 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:39:27.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:39:27.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:39:27.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:39:27.900 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:39:27.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-04-19 14:39:28.121 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$123e5771] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:39:28.447 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:39:28.456 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:39:28.462 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:39:28.463 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:39:28.536 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:39:28.537 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1167 ms
+2020-04-19 14:39:28.642 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:39:28.729 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:39:28.779 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:39:28.830 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:39:28.928 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:39:29.061 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:39:29.701 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:39:29.704 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:39:30.804 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:39:30.881 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:39:31.348 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:39:31.369 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:39:31.371 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.433 seconds (JVM running for 5.29)
+2020-04-19 14:39:46.133 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:39:46.136 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:39:46.138 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:39:46.143 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:39:48.505 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 44731 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:39:48.507 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:39:48.977 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:48.978 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:49.007 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:39:49.008 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:39:49.010 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:39:49.011 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:39:49.012 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:39:49.013 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:39:49.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:39:49.015 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2020-04-19 14:39:49.020 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:49.021 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:49.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 7 repository interfaces.
+2020-04-19 14:39:49.070 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:39:49.071 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:39:49.080 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:39:49.081 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:39:49.081 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:39:49.081 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:39:49.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:39:49.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:39:49.082 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:39:49.082 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-04-19 14:39:49.288 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d24ee5b6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:39:49.578 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:39:49.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:39:49.594 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:39:49.594 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:39:49.666 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:39:49.666 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1110 ms
+2020-04-19 14:39:49.785 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:39:49.902 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:39:49.947 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:39:50.001 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:39:50.108 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:39:50.207 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:39:50.901 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:39:50.903 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:39:51.891 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:39:51.965 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:39:52.426 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:39:52.445 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:39:52.446 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.258 seconds (JVM running for 4.668)
+2020-04-19 14:39:59.956 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:39:59.957 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:39:59.965 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 8 ms
+2020-04-19 14:40:09.289 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@70143c4e, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=B1E1D3398447294C70868BB0127718C9]}
+2020-04-19 14:40:09.292 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:40:09.293 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 14:40:09.302 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:40:09.303 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5d957027, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=B1E1D3398447294C70868BB0127718C9]}
+2020-04-19 14:40:09.303 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:43:34.801 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:43:34.804 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:43:34.806 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:43:34.809 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:43:36.768 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 44945 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:43:36.770 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:43:37.274 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:43:37.276 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:43:37.309 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:43:37.311 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:43:37.312 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:43:37.314 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:43:37.315 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:43:37.316 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:43:37.317 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:43:37.317 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-04-19 14:43:37.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:43:37.323 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:43:37.374 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 7 repository interfaces.
+2020-04-19 14:43:37.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:43:37.382 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:43:37.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:43:37.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:43:37.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:43:37.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:43:37.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:43:37.395 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:43:37.395 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:43:37.395 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 14:43:37.664 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$65b65fbd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:43:37.984 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:43:37.992 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:43:37.998 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:43:37.999 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:43:38.077 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:43:38.077 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1252 ms
+2020-04-19 14:43:38.204 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:43:38.297 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:43:38.335 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:43:38.389 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:43:38.511 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:43:38.616 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:43:39.330 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:43:39.332 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:43:40.348 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:43:40.431 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:43:40.927 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:43:40.949 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:43:40.951 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.673 seconds (JVM running for 5.407)
+2020-04-19 14:43:48.486 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:43:48.486 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:43:48.496 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-19 14:43:58.771 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3263108b, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=4A2493EE9263C9EE245CE89F5C1A40D0]}
+2020-04-19 14:43:58.774 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:43:58.775 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 14:43:58.785 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:43:58.785 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7bc5b59f, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=4A2493EE9263C9EE245CE89F5C1A40D0]}
+2020-04-19 14:43:58.785 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:45:41.336 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:45:41.339 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:45:41.341 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:45:41.343 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:45:43.429 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 45096 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:45:43.431 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:45:43.905 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:45:43.908 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:45:43.943 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:45:43.944 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:45:43.946 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:45:43.947 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:45:43.948 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:45:43.949 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:45:43.950 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:45:43.951 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 repository interfaces.
+2020-04-19 14:45:43.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:45:43.957 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:45:44.009 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 49ms. Found 7 repository interfaces.
+2020-04-19 14:45:44.018 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:45:44.019 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:45:44.032 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:45:44.032 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:45:44.032 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:45:44.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:45:44.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:45:44.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:45:44.034 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:45:44.034 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-04-19 14:45:44.301 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$693de737] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:45:44.582 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:45:44.593 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:45:44.600 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:45:44.601 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:45:44.677 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:45:44.677 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1216 ms
+2020-04-19 14:45:44.792 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:45:44.894 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:45:44.934 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:45:44.989 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:45:45.115 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:45:45.217 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:45:45.869 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:45:45.872 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:45:46.837 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:45:46.908 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:45:47.371 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:45:47.399 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:45:47.401 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.404 seconds (JVM running for 5.356)
+2020-04-19 14:45:54.223 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:45:54.224 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:45:54.235 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-19 14:46:01.215 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@742d6b06, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=6270FF1380A07500A8D87B5225633EDB]}
+2020-04-19 14:46:01.218 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:46:01.219 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 14:46:01.230 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 14:46:01.230 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6a660541, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=6270FF1380A07500A8D87B5225633EDB]}
+2020-04-19 14:46:01.230 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:53:47.290 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:53:47.292 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:53:47.294 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 14:53:47.296 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 14:53:50.202 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 45457 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 14:53:50.205 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 14:53:50.826 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:53:50.828 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:53:50.864 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:53:50.865 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:53:50.867 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:53:50.868 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:53:50.870 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:53:50.871 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:53:50.872 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:53:50.873 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2020-04-19 14:53:50.878 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:53:50.879 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:53:50.924 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 7 repository interfaces.
+2020-04-19 14:53:50.932 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 14:53:50.933 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 14:53:50.944 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 14:53:50.944 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 14:53:50.944 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 14:53:50.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 14:53:50.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 14:53:50.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 14:53:50.945 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 14:53:50.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-04-19 14:53:51.232 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$27ab3d7c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 14:53:51.554 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 14:53:51.563 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:53:51.569 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 14:53:51.570 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 14:53:51.654 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 14:53:51.655 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1384 ms
+2020-04-19 14:53:51.812 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 14:53:51.916 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 14:53:51.969 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 14:53:52.021 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 14:53:52.130 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 14:53:52.257 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 14:53:53.001 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 14:53:53.004 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 14:53:54.091 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 14:53:54.207 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 14:53:54.798 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 14:53:54.820 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 14:53:54.822 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.08 seconds (JVM running for 5.675)
+2020-04-19 14:53:59.486 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 14:53:59.487 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 14:53:59.498 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 11 ms
+2020-04-19 14:54:06.905 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@36506edc, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=81CAC08CE47CEE771388FD54E0BC3B47]}
+2020-04-19 14:54:06.908 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 14:54:06.909 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:13.594 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:13.598 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4b1625c0, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.598 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.602 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5b0d6f6f, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@1e166645, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7b5e3433, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7038ea92, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.602 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.602 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.602 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.602 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:13.603 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:13.602 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:13.616 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:13.616 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:13.616 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:13.617 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:13.617 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3243f081, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.617 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@32113956, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.617 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@2f702b96, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.617 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@322d7b7, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1]}
+2020-04-19 15:37:13.617 [http-nio-8080-exec-7] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.617 [http-nio-8080-exec-9] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.617 [http-nio-8080-exec-8] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.617 [http-nio-8080-exec-10] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:13.658 [Thread-12] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:37:13.662 [Thread-12] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:37:13.667 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 15:37:13.671 [Thread-12] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 15:37:16.870 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 47334 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 15:37:16.872 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 15:37:17.364 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:37:17.365 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:37:17.398 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:37:17.399 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:37:17.400 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:37:17.402 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:37:17.403 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:37:17.404 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:37:17.405 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:37:17.406 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 37ms. Found 0 repository interfaces.
+2020-04-19 15:37:17.411 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:37:17.412 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:37:17.461 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 7 repository interfaces.
+2020-04-19 15:37:17.468 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:37:17.469 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:37:17.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:37:17.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:37:17.480 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:37:17.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:37:17.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:37:17.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:37:17.481 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:37:17.482 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 15:37:17.761 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80e48015] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 15:37:18.053 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 15:37:18.062 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:37:18.068 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 15:37:18.069 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 15:37:18.150 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 15:37:18.150 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1224 ms
+2020-04-19 15:37:18.273 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 15:37:18.371 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 15:37:18.413 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 15:37:18.468 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 15:37:18.589 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 15:37:18.717 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 15:37:19.418 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 15:37:19.420 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:37:20.413 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:37:20.487 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 15:37:20.963 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:37:20.985 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 15:37:20.987 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.48 seconds (JVM running for 5.125)
+2020-04-19 15:37:48.451 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 15:37:48.451 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 15:37:48.463 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-04-19 15:37:57.356 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@1a2b56d7, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=2C41E7886950003851DC31C1457FCF86]}
+2020-04-19 15:37:57.359 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:37:57.360 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:37:57.372 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:37:57.372 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@6c6e7013, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=2C41E7886950003851DC31C1457FCF86]}
+2020-04-19 15:37:57.372 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:39:27.810 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:39:27.812 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:39:27.814 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 15:39:27.817 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 15:39:30.211 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 47433 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 15:39:30.213 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 15:39:30.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:39:30.623 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:39:30.654 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:39:30.655 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:39:30.656 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:39:30.657 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:39:30.658 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:39:30.659 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:39:30.661 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:39:30.661 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2020-04-19 15:39:30.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:39:30.667 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:39:30.710 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 7 repository interfaces.
+2020-04-19 15:39:30.716 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:39:30.717 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:39:30.726 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:39:30.726 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:39:30.727 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:39:30.727 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:39:30.727 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:39:30.728 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:39:30.728 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:39:30.728 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-04-19 15:39:31.000 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$342c47e9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 15:39:31.295 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 15:39:31.303 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:39:31.309 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 15:39:31.309 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 15:39:31.379 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 15:39:31.379 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1123 ms
+2020-04-19 15:39:31.496 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 15:39:31.592 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 15:39:31.634 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 15:39:31.689 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 15:39:31.774 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 15:39:31.885 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 15:39:32.531 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 15:39:32.533 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:39:33.601 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:39:33.678 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 15:39:34.181 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:39:34.203 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 15:39:34.205 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.307 seconds (JVM running for 4.703)
+2020-04-19 15:39:39.170 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 15:39:39.170 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 15:39:39.179 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2020-04-19 15:39:47.447 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@f375fc8, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=47C5511A199A4D2E16EEE5BD628C6534]}
+2020-04-19 15:39:47.450 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:39:47.450 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:39:47.460 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:39:47.461 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@66edf554, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=47C5511A199A4D2E16EEE5BD628C6534]}
+2020-04-19 15:39:47.461 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:43:48.811 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:43:48.814 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:43:48.819 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 15:43:48.829 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 15:43:53.115 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 47620 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 15:43:53.118 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 15:43:53.968 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:43:53.970 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:43:54.027 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:43:54.030 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:43:54.033 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:43:54.036 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:43:54.038 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:43:54.040 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:43:54.053 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:43:54.054 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 79ms. Found 0 repository interfaces.
+2020-04-19 15:43:54.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:43:54.064 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:43:54.133 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 63ms. Found 7 repository interfaces.
+2020-04-19 15:43:54.144 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 15:43:54.146 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 15:43:54.163 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 15:43:54.164 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 15:43:54.165 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 15:43:54.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 15:43:54.166 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 15:43:54.167 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 15:43:54.167 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 15:43:54.167 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-04-19 15:43:54.619 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d530183b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 15:43:55.096 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 15:43:55.111 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:43:55.121 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 15:43:55.121 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 15:43:55.249 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 15:43:55.250 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2038 ms
+2020-04-19 15:43:55.485 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 15:43:55.619 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 15:43:55.682 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 15:43:55.789 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 15:43:55.948 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 15:43:56.144 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 15:43:57.243 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 15:43:57.246 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:43:58.848 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:43:58.977 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 15:43:59.750 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 15:43:59.783 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 15:43:59.785 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 7.303 seconds (JVM running for 8.252)
+2020-04-19 15:44:09.951 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 15:44:09.951 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 15:44:09.963 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-04-19 15:44:18.075 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@8bb252, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=B0E3AB16DF735451C9ECC26068A05548]}
+2020-04-19 15:44:18.079 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:44:18.080 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 15:44:18.092 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 15:44:18.092 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@4776299c, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=B0E3AB16DF735451C9ECC26068A05548]}
+2020-04-19 15:44:18.092 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 15:55:08.729 [Thread-17] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 15:55:08.731 [Thread-17] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 15:55:08.736 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 15:55:08.740 [Thread-17] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 20:13:03.536 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 59205 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 20:13:03.539 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 20:13:04.340 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:13:04.342 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:13:04.386 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:13:04.387 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:13:04.389 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:13:04.390 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:13:04.392 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:13:04.393 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:13:04.394 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:13:04.395 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 0 repository interfaces.
+2020-04-19 20:13:04.405 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:13:04.405 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:13:04.468 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 58ms. Found 7 repository interfaces.
+2020-04-19 20:13:04.480 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:13:04.481 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:13:04.496 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:13:04.497 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:13:04.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:13:04.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:13:04.498 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:13:04.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:13:04.499 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:13:04.499 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+2020-04-19 20:13:04.785 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$3ed7fc27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 20:13:05.125 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 20:13:05.137 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:13:05.143 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 20:13:05.143 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 20:13:05.229 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 20:13:05.229 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1631 ms
+2020-04-19 20:13:05.389 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 20:13:05.522 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 20:13:05.569 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 20:13:05.673 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 20:13:05.815 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 20:13:05.968 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 20:13:06.767 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 20:13:06.769 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 20:13:07.945 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 20:13:08.052 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 20:13:08.637 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:13:08.661 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 20:13:08.664 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.587 seconds (JVM running for 6.293)
+2020-04-19 20:13:14.365 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 20:13:14.366 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 20:13:14.379 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2020-04-19 20:13:23.761 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5994cddb, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=80A9867EE90F9FB84A217F6FF534D66A]}
+2020-04-19 20:13:23.764 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:13:23.764 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 20:13:23.776 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 20:13:23.776 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@7d6a5d6e, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=80A9867EE90F9FB84A217F6FF534D66A]}
+2020-04-19 20:13:23.776 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:24:36.885 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 20:24:36.887 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 20:24:36.891 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 20:24:36.893 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 20:24:38.858 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 59772 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 20:24:38.892 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 20:24:39.421 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:24:39.423 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:24:39.455 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:24:39.457 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:24:39.458 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:24:39.459 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:24:39.461 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:24:39.462 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:24:39.463 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:24:39.463 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 repository interfaces.
+2020-04-19 20:24:39.469 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:24:39.470 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:24:39.519 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 7 repository interfaces.
+2020-04-19 20:24:39.527 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:24:39.528 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:24:39.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:24:39.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:24:39.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:24:39.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:24:39.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:24:39.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:24:39.540 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:24:39.540 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 6ms. Found 0 repository interfaces.
+2020-04-19 20:24:39.820 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$82a79db6] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 20:24:40.130 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 20:24:40.139 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:24:40.145 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 20:24:40.145 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 20:24:40.222 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 20:24:40.222 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1293 ms
+2020-04-19 20:24:40.356 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 20:24:40.461 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 20:24:40.502 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 20:24:40.561 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 20:24:40.685 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 20:24:40.804 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 20:24:41.565 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 20:24:41.567 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 20:24:42.704 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 20:24:42.785 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 20:24:43.435 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:24:43.458 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 20:24:43.460 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.074 seconds (JVM running for 5.885)
+2020-04-19 20:24:54.419 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 20:24:54.419 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 20:24:54.432 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2020-04-19 20:25:02.359 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@76f09a4a, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=BEFF00C33BCDA0FE03A38CE77AC9F637]}
+2020-04-19 20:25:02.362 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:25:02.363 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 20:25:02.373 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 20:25:02.373 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@38ad419d, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=BEFF00C33BCDA0FE03A38CE77AC9F637]}
+2020-04-19 20:25:02.373 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:25:30.174 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/search', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5d4064e9, ServletWebRequest: uri=/cclogin/products/search;client=0:0:0:0:0:0:0:1;session=BEFF00C33BCDA0FE03A38CE77AC9F637]}
+2020-04-19 20:25:30.175 [http-nio-8080-exec-4] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:27:12.850 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 20:27:12.851 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 20:27:12.854 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 20:27:12.857 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 20:27:15.423 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 59886 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 20:27:15.425 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 20:27:15.900 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:27:15.901 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:27:15.932 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:27:15.934 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:27:15.935 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:27:15.936 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:27:15.937 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:27:15.938 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:27:15.939 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:27:15.940 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 36ms. Found 0 repository interfaces.
+2020-04-19 20:27:15.945 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:27:15.946 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:27:15.993 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 7 repository interfaces.
+2020-04-19 20:27:16.001 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 20:27:16.003 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 20:27:16.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 20:27:16.014 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 20:27:16.015 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 20:27:16.015 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 20:27:16.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 20:27:16.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 20:27:16.016 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 20:27:16.016 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 20:27:16.306 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d295b9fe] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 20:27:16.623 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 20:27:16.632 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:27:16.639 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 20:27:16.639 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 20:27:16.721 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 20:27:16.721 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1249 ms
+2020-04-19 20:27:16.858 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 20:27:16.966 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 20:27:17.004 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 20:27:17.060 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 20:27:17.165 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 20:27:17.266 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 20:27:17.977 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 20:27:17.979 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 20:27:19.102 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 20:27:19.177 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 20:27:19.714 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 20:27:19.740 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 20:27:19.743 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 4.645 seconds (JVM running for 5.208)
+2020-04-19 20:27:23.755 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 20:27:23.756 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 20:27:23.766 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-19 20:27:32.463 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@5aced886, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=1083E715C86FB5A4E21E8B11FD7B677E]}
+2020-04-19 20:27:32.466 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 20:27:32.467 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 20:27:32.477 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 20:27:32.477 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@276a828a, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=1083E715C86FB5A4E21E8B11FD7B677E]}
+2020-04-19 20:27:32.478 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 21:50:20.554 [Thread-11] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 21:50:20.557 [Thread-11] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 21:50:20.562 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 21:50:20.565 [Thread-11] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 22:10:16.895 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 64427 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 22:10:16.898 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 22:10:17.446 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:10:17.448 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:10:17.489 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 22:10:17.490 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 22:10:17.491 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 22:10:17.493 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 22:10:17.494 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 22:10:17.495 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 22:10:17.496 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 22:10:17.497 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2020-04-19 22:10:17.503 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:10:17.504 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:10:17.555 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47ms. Found 7 repository interfaces.
+2020-04-19 22:10:17.565 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:10:17.567 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:10:17.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 22:10:17.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 22:10:17.579 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 22:10:17.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 22:10:17.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 22:10:17.580 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 22:10:17.581 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 22:10:17.581 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+2020-04-19 22:10:17.865 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d6ef751] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 22:10:18.210 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 22:10:18.220 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 22:10:18.226 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 22:10:18.227 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 22:10:18.315 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 22:10:18.316 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1388 ms
+2020-04-19 22:10:18.475 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 22:10:18.583 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 22:10:18.628 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 22:10:18.703 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 22:10:18.844 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 22:10:18.991 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 22:10:19.775 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 22:10:19.778 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 22:10:21.081 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 22:10:21.172 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 22:10:21.732 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 22:10:21.754 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 22:10:21.756 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.205 seconds (JVM running for 5.812)
+2020-04-19 22:10:30.216 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 22:10:30.216 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 22:10:30.232 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 16 ms
+2020-04-19 22:10:30.267 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.IndexController.index', args=[Page request [number: 0, size 8, sort: updateTime: DESC], {}]}
+2020-04-19 22:10:30.397 [http-nio-8080-exec-1] INFO  com.nedlee.finance.aspect.LogAspect - Result : index
+2020-04-19 22:10:42.033 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@22b9e1fa, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=502C53EDF74770C40AFE0768AB8C87EF]}
+2020-04-19 22:10:42.036 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 22:10:42.037 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 22:10:42.047 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 22:10:42.048 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@3b930d61, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=502C53EDF74770C40AFE0768AB8C87EF]}
+2020-04-19 22:10:42.048 [http-nio-8080-exec-5] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 22:13:37.827 [Thread-13] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2020-04-19 22:13:37.828 [Thread-13] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 22:13:37.831 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2020-04-19 22:13:37.834 [Thread-13] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2020-04-19 22:13:40.008 [main] INFO  com.nedlee.finance.FinanceApplication - Starting FinanceApplication on nedleeMacBook.local with PID 64626 (/Users/nedlee/Documents/finance/target/classes started by nedlee in /Users/nedlee/Documents/finance)
+2020-04-19 22:13:40.011 [main] INFO  com.nedlee.finance.FinanceApplication - The following profiles are active: dev
+2020-04-19 22:13:40.572 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:13:40.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:13:40.636 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 22:13:40.638 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 22:13:40.640 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 22:13:40.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 22:13:40.644 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 22:13:40.649 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 22:13:40.652 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Elasticsearch - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 22:13:40.655 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 75ms. Found 0 repository interfaces.
+2020-04-19 22:13:40.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:13:40.666 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:13:40.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 151ms. Found 7 repository interfaces.
+2020-04-19 22:13:40.842 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2020-04-19 22:13:40.844 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data repositories in DEFAULT mode.
+2020-04-19 22:13:40.874 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ArticleRepository.
+2020-04-19 22:13:40.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CommentRepository.
+2020-04-19 22:13:40.875 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.CustomerRepository.
+2020-04-19 22:13:40.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.ProductRepository.
+2020-04-19 22:13:40.876 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TagRepository.
+2020-04-19 22:13:40.877 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.TypeRepository.
+2020-04-19 22:13:40.877 [main] INFO  o.s.d.r.c.RepositoryConfigurationExtensionSupport - Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.nedlee.finance.dao.UserRepository.
+2020-04-19 22:13:40.877 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2020-04-19 22:13:41.489 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$321d4270] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-04-19 22:13:41.940 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2020-04-19 22:13:41.949 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2020-04-19 22:13:41.955 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2020-04-19 22:13:41.956 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.22]
+2020-04-19 22:13:42.036 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2020-04-19 22:13:42.036 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1939 ms
+2020-04-19 22:13:42.165 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2020-04-19 22:13:42.268 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2020-04-19 22:13:42.306 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2020-04-19 22:13:42.357 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.4.2.Final}
+2020-04-19 22:13:42.478 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-04-19 22:13:42.594 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2020-04-19 22:13:43.274 [main] INFO  o.h.e.t.jta.platform.internal.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-04-19 22:13:43.276 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2020-04-19 22:13:44.269 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-19 22:13:44.342 [main] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2020-04-19 22:13:44.782 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2020-04-19 22:13:44.801 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2020-04-19 22:13:44.803 [main] INFO  com.nedlee.finance.FinanceApplication - Started FinanceApplication in 5.17 seconds (JVM running for 6.195)
+2020-04-19 22:13:50.946 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-19 22:13:50.946 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2020-04-19 22:13:50.956 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2020-04-19 22:14:00.324 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@261550dc, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=07646041095A31B905A97B9B72411D30]}
+2020-04-19 22:14:00.327 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null
+2020-04-19 22:14:00.328 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.products', args=[Page request [number: 0, size 2, sort: jyTime: DESC], {}, 2]}
+2020-04-19 22:14:00.339 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : product
+2020-04-19 22:14:00.339 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Request : {url='http://localhost:8080/cclogin/products/2', ip='0:0:0:0:0:0:0:1', classMethod='com.nedlee.finance.web.PoductController.initBinder', args=[org.springframework.web.servlet.mvc.method.annotation.ExtendedServletRequestDataBinder@526bcb9c, ServletWebRequest: uri=/cclogin/products/2;client=0:0:0:0:0:0:0:1;session=07646041095A31B905A97B9B72411D30]}
+2020-04-19 22:14:00.339 [http-nio-8080-exec-3] INFO  com.nedlee.finance.aspect.LogAspect - Result : null

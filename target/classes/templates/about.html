@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>关于我</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+<!--导航-->
+<nav th:replace="_fragments :: navigation" class="ui inverted attached segment m-padded-tb-mini m-shadow-small">
+    <div class="ui inverted secondary stackable menu">
+        <h2 class="ui teal header item">金融投资产品的分析与管理</h2>
+        <div class="right item">
+            <div class="ui icon input">
+                <input type="text" placeholder="搜索文章. . .">
+                <i class="search link icon"></i>
+            </div>
+            <div class="right item">
+                <a href="#">登陆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#">注册 </a>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="ui secondary stackable menu" th:replace="_fragments :: menu(0)">
+    <a class="m-item item m-mobile-hide">首页</a>
+    <a class="m-item item m-mobile-hide">股票</a>
+    <a class="m-item item m-mobile-hide">黄金</a>
+    <a class="m-item item m-mobile-hide">期货</a>
+    <a class="m-item item m-mobile-hide">债卷</a>
+    <a class="m-item item m-mobile-hide">外汇</a>
+    <a class="m-item item m-mobile-hide">白银</a>
+    <a class="m-item item m-mobile-hide">银行</a>
+    <a class="m-item item m-mobile-hide">金融知识</a>
+    <a class="m-item item m-mobile-hide">理财知识</a>
+    <a href="#" class="m-item ui menu toggle icon basic button m-right-top m-mobile-show">
+        <i class="sidebar icon"></i>
+    </a>
+</div>
+
+<!--中间内容-->
+<div class="m-container m-padded-tb-big">
+
+    <div class="ui container">
+        <div class="ui stackable grid">
+            <div class="eleven wide column">
+                <div class="ui segment">
+                    <img src="https://picsum.photos/id/1074/800/600" alt="" class="ui rounded image">
+                </div>
+            </div>
+            <div class="five wide column">
+                <div class="ui top attached segment">
+                    <div class="ui header">关于我</div>
+                </div>
+                <div class="ui attached segment">
+                    <p class="m-text">开朗乐观怕麻烦的代码集成者</p>
+                    <p class="m-text">没有什么是你学不会的，只是没有用心而已</p>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui orange basic left pointing label m-margin-tb-tiny">思考</div>
+                    <div class="ui orange basic left pointing label m-margin-tb-tiny">思考</div>
+                    <div class="ui orange basic left pointing label m-margin-tb-tiny">思考</div>
+                    <div class="ui orange basic left pointing label m-margin-tb-tiny">思考</div>
+                </div>
+                <div class="ui attached segment">
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">Java</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">JavaScript</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">MySql</div>
+                    <div class="ui teal basic left pointing label m-margin-tb-tiny">Spring</div>
+                    <div class="ui teal basic left  m-margin-tb-tiny">......</div>
+                </div>
+                <div class="ui bottom attached segment">
+                    <a href="#" class="ui circular icon button"><i class="github icon"></i></a>
+                    <a href="#" class="ui wechat circular icon button"><i class="weixin icon"></i></a>
+                    <a href="#" class="ui qq circular icon button" data-content="873383099"><i class="qq icon"></i></a>
+                </div>
+                <div class="ui wechatQR flowing popup transition hidden">
+                    <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded image" style="width: 100px">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+<br>
+<br>
+<!--底部-->
+<footer class="ui inverted vertical segment m-padded-tb-massive" th:replace="_fragments :: footer">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="../static/images/wechat.jpg" class="ui rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="m-text-thin m-text-spaced">我的博客</h4>
+                <div class="ui inverted link list">
+                    <a href="https://nedlee329.github.io/" class="item">GitHub：nedlee329.github.io/</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="m-text-thin m-text-spaced">我的邮箱</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item m-text-thin m-text-spaced m-opacity-mini">873383099@qq.com</a>
+                </div>
+            </div>
+            <div class="five wide column">
+                <h4 class="m-text-thin m-text-spaced">财富寄语：</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">每个人最大的一笔财富，就是他自己！</p>
+            </div>
+        </div>
+        <div class="ui inverted section divider"></div>
+        <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright @2016 - 2020 Liang Song Designed by Liang Song</p>
+    </div>
+    </div>
+</footer>
+
+<!--/*/<th:block th:replace="_fragments :: script">/*/-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+<script src="//unpkg.com/vue/dist/vue.js"></script>
+<script src="//unpkg.com/element-ui@2.13.0/lib/index.js"></script>
+<!--/*/</th:block>/*/-->
+<script>
+    $('.menu.toggle').click(function () {
+        $('.m-item').toggleClass('m-mobile-hide')
+    });
+    $('.wechat').popup({
+        popup : $('.wechatQR'),
+        on : 'hover',
+    });
+    $('.qq').popup();
+    $('.ui.dropdown').dropdown();
+</script>
+<!-- 引入样式 -->
+
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</body>
+</html>

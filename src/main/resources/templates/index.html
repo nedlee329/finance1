@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>首页</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+</head>
+<body>
+<!--导航-->
+<nav th:replace="_fragments :: navigation" class="ui inverted attached segment m-padded-tb-mini">
+    <div class="ui inverted secondary stackable menu">
+        <h2 class="ui teal header item">金融投资产品的分析与管理</h2>
+        <div class="right item">
+            <div class="ui icon input">
+                <input type="text" placeholder="搜索文章. . .">
+                <i class="search link icon"></i>
+            </div>
+            <div class="right item"th:if="${session.customer ==null}">
+                <a href="#" th:href="@{/cclogin}">登陆&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                <a href="#">注册 </a>
+            </div>
+            <div class="right m-item m-mobile-hide menu" th:if="${session.customer != null}">
+                <div class="ui dropdown item">
+                    <div class="text">
+                        <img class="ui avatar image" src="https://picsum.photos/id/27/100/100" th:src="@{${session.customer.avatar}}">
+                        <span th:text="${session.customer.nickname}">梁松</span>
+                    </div>
+                    <i class="dropdown icon"></i>
+                    <div class="menu">
+                        <a href="#" th:href="@{/cclogin/clogout}" class="item">退出登录</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+    <div class="ui secondary stackable menu" th:replace="_fragments :: menu(1)">
+        <a class="m-item item m-mobile-hide">首页</a>
+        <a class="m-item item m-mobile-hide">股票</a>
+        <a class="m-item item m-mobile-hide">黄金</a>
+        <a class="m-item item m-mobile-hide">期货</a>
+        <a class="m-item item m-mobile-hide">债卷</a>
+        <a class="m-item item m-mobile-hide">外汇</a>
+        <a class="m-item item m-mobile-hide">白银</a>
+        <a class="m-item item m-mobile-hide">银行</a>
+        <a class="m-item item m-mobile-hide">金融知识</a>
+        <a class="m-item item m-mobile-hide">理财知识</a>
+        <a href="#" class="m-item ui menu toggle icon basic button m-right-top m-mobile-show">
+            <i class="sidebar icon"></i>
+        </a>
+    </div>
+
+<!--中间内容-->
+<div class="m-container m-padded-tb-big">
+    <div class="ui container">
+        <div class="ui stackable grid">
+<!--      左边的内容      -->
+            <div class="eleven wide column">
+            <!--   header   -->
+                <div class="ui top attached segment">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <h3 class="ui teal header">文章</h3>
+                        </div>
+                        <div class="right aligned column">
+                            共<h2 class="ui orange header m-inline-block" th:text="${page.totalElements}">&nbsp;18&nbsp;</h2>篇
+                        </div>
+                    </div>
+                </div>
+             <!--content-->
+                <div class="ui attached  segment">
+
+                    <div class="ui padded vertical segment m-padded-tb-big" th:each="article : ${page.content}">
+                        <div class="ui middle aligned stackable mobile reversed grid">
+
+                            <div class="eleven wide column">
+                                <h3 class="ui header"><a href="#" th:href="@{/article/{id}(id=${article.id})}" target="_blank" class="m-black" th:text="${article.title}">你真的理解什么是财富自由吗？</a></h3>
+                                <p class="m-text" th:text="|${article.description}......|">正确做任何一件事情的前提是清晰、正确的理解目标，而事实是，我们很多人很多时候根本没有对目标正确的定义，甚至根本从来就没有对目标正确的定义，甚至根本从来就没有想过，只是大家都那么做而已.......</p>
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini horizontal link list">
+                                            <div class="item">
+                                                <img src="https://picsum.photos/id/1095/100/100" th:src="@{${article.user.avatar}}" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header" th:text="${article.author}">陈经</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>&nbsp;<span th:text="${#dates.format(article.updateTime,'yyyy-MM-dd')}">2020-03-11</span>
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i>&nbsp; <span th:text="${article.views}">123</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label m-padded-mini" th:text="${article.type.name}">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="five wide column">
+                                <a href="#" th:href="@{/article/{id}(id=${article.id})}" target="_blank">
+                                    <img src="https://picsum.photos/id/1005/800/450" th:src="@{${article.firstPicture}}" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!--/*-->
+                    <div class="ui padded vertical segment m-padded-tb-big">
+                        <div class="ui stackable mobile reversed grid">
+
+                            <div class="eleven wide column">
+                                <h3 class="ui header">黄金价格大幅波动 银行拉宽点差防止过度投机</h3>
+                                <p class="m-text">随着美联储宣布实施无限量化宽松政策、市场避险情绪升温的影响，黄金价格震荡剧烈，不少投资者趁机加仓买入，市场需求暴涨。为了应对流动性危机，部分银行表示将采取拉宽买卖点差或者暂停交易等措施，维持业务正常开展。在分析人士看来，银行上述措施的背后是通过抬高交易成本限制部分投机行为，综合性防范风险。.......</p>
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini horizontal link list">
+                                            <div class="item">
+                                                <img src="https://picsum.photos/id/1054/100/100" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">李晴</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2020-03-112
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i> 133
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label m-padded-mini">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <img src="https://picsum.photos/id/1074/800/400" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment m-padded-tb-big">
+                        <div class="ui stackable mobile reversed grid">
+
+                            <div class="eleven wide column">
+                                <h3 class="ui header">从巴菲特抄底港股我们能学到什么？</h3>
+                                <p class="m-text">正当非典疫情最猛的时候，巴菲特撸起了袖子入场港股，在短短15天之内连续增持中石油，持股达6.8%左右，一跃成为中石油的第二大股东。最终，在这场交易中，巴菲特以本金5亿美元，最终获利几乎40亿美元，成为了投资者们口口相传的“人恐慌我贪婪”的经典案例。.......</p>
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini horizontal link list">
+                                            <div class="item">
+                                                <img src="https://picsum.photos/id/1005/100/100" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">张芳</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2020-03-11
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i> 123
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label m-padded-mini">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <img src="https://picsum.photos/id/1070/800/400" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="ui padded vertical segment m-padded-tb-big">
+                        <div class="ui stackable mobile reversed grid">
+
+                            <div class="eleven wide column">
+                                <h3 class="ui header">你知道稳定盈利的前提是什么吗？</h3>
+                                <p class="m-text">相信不少人都有过上述的泣血经验，从心态不好到交易系统出差错，想必不少交易员总能从中分析出很多“祸因”。
+
+                                    　　但是，你有没有这样的体验，就算在交易系统和规则很完善的情况下，开单的时候还会犹豫不决？.......</p>
+                                <div class="ui grid">
+                                    <div class="eleven wide column">
+                                        <div class="ui mini horizontal link list">
+                                            <div class="item">
+                                                <img src="https://picsum.photos/id/1075/100/100" alt="" class="ui avatar image">
+                                                <div class="content"><a href="#" class="header">金石书</a></div>
+                                            </div>
+                                            <div class="item">
+                                                <i class="calendar icon"></i>2020-03-11
+                                            </div>
+                                            <div class="item">
+                                                <i class="eye icon"></i> 1232
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="right aligned five wide column">
+                                        <a href="#" target="_blank" class="ui teal basic label m-padded-mini">了解更多</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="five wide column">
+                                <a href="#" target="_blank">
+                                    <img src="https://picsum.photos/id/855/800/400" alt="" class="ui rounded image">
+                                </a>
+                            </div>
+
+                        </div>
+                    </div>
+                    <!--*/-->
+
+                </div>
+
+                <!--floor-->
+                <div class="ui bottom attached segment" th:if="${page.totalPages}>1">
+                    <div class="ui middle aligned two column grid">
+                        <div class="column">
+                            <a href="#" th:href="@{/(page=${page.number}-1)}" th:unless="${page.first}" class="ui mini teal basic button">上一页</a>
+                        </div>
+                        <div class="right aligned column">
+                            <a href="#" th:href="@{/(page=${page.number}+1)}" th:unless="${page.last}"  class="ui mini teal basic button">下一页</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+<!--      右边的内容      -->
+            <div class="five wide column">
+<!--                分类-->
+                <!--<div class="ui segments">
+                    <div class="ui secondary segment">
+                        <div class="ui two column grid">
+                            <div class="column">
+                                <i class="idea icon"></i>分类
+                            </div>
+                            <div class="right aligned target column">
+                                <a href="#">more <i class="angle double right icon"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ui teal segment">
+                        <div class="ui fluid vertical menu">
+                            <a href="#" class="item" th:each="type : ${types}">
+                                <span th:text="${type.name}">股票</span>
+                                <div class="ui teal basic left pointing label" th:text="${#arrays.length(type.articles)}">13</div>
+
+                                &lt;!&ndash;/*&ndash;&gt;
+                            </a>  <a href="#" class="item">
+                                黄金
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>  <a href="#" class="item">
+                                期货
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>  <a href="#" class="item">
+                                债卷
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>  <a href="#" class="item">
+                                外汇
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>  <a href="#" class="item">
+                                白银
+                                <div class="ui teal basic left pointing label">13</div>
+                            </a>
+                            &lt;!&ndash;*/&ndash;&gt;
+                        </div>
+                    </div>
+                </div>-->
+
+<!--                标签-->
+                    <div class="ui segments">
+                        <div class="ui secondary segment">
+                            <div class="ui two column grid">
+                                <div class="column">
+                                    <i class="tag icon"></i>标签
+                                </div>
+                                <div class="right aligned target column">
+                                    <a href="#" th:href="@{/tags/-1}" target="_blank">more <i class="angle double right icon"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="ui teal segment">
+                        <a href="#" th:href="@{/tags/{id}(id=${tag.id})}"  target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny" th:each="tag : ${tags}">
+                           <span th:text="${tag.name}">方法论</span>  <div class="detail" th:text="${#arrays.length(tag.articles)}">23</div>
+                        </a>
+                        <!--/*-->
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                            方法论 <div class="detail">23</div>
+                        </a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                            方法论 <div class="detail">23</div>
+                        </a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                            方法论 <div class="detail">23</div>
+                        </a>
+                        </a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                            方法论 <div class="detail">23</div>
+                        </a>
+                        </a>
+                        <a href="#" target="_blank" class="ui teal basic left pointing label m-margin-tb-tiny">
+                            方法论 <div class="detail">23</div>
+                        </a>
+                        <!--*/-->
+                    </div>
+                </div>
+<!--                最新推荐-->
+                <div class="ui segment">
+                    <div class="ui secondary segment m-margin-tb">
+                        <i class="bookmark icon"></i>最新推荐
+                    </div>
+                    <div class="ui segment" th:each="article : ${recommendArticles}">
+                        <a href="#" th:href="@{/article/{id}(id=${article.id})}" target="_blank" class="m-black m-text-thin" th:text="${article.title}">国际黄金的走势</a>
+                    </div>
+                    <!--/*-->
+                    <div class="ui segment">
+                        <a href="#" target="_blank" class="m-black m-text-thin">国际黄金的走势</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank" class="m-black m-text-thin">国际黄金的走势</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank" class="m-black m-text-thin">国际黄金的走势</a>
+                    </div>
+                    <div class="ui segment">
+                        <a href="#" target="_blank" class="m-black m-text-thin">国际黄金的走势</a>
+                    </div>
+                    <!--*/-->
+                </div>
+<!--                其他-->
+                <h4 class="ui horizontal divider header">2020的金融危机分析</h4>
+                <div class="ui centered card" style="width: 11em">
+                    <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" alt="" class="ui rounded image">
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+<br>
+<!--底部-->
+<footer th:replace="_fragments :: footer" class="ui inverted vertical segment m-padded-tb-massive">
+    <div class="ui center aligned container">
+        <div class="ui inverted divided stackable grid">
+            <div class="three wide column">
+                <div class="ui inverted link list">
+                    <div class="item">
+                        <img src="../static/images/wechat.jpg" th:src="@{/images/wechat.jpg}" class="ui rounded image" alt="" style="width: 110px">
+                    </div>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="m-text-thin m-text-spaced">我的博客</h4>
+                <div class="ui inverted link list">
+                    <a href="https://nedlee329.github.io/" class="item">GitHub：nedlee329.github.io/</a>
+                </div>
+            </div>
+            <div class="four wide column">
+                <h4 class="m-text-thin m-text-spaced">我的邮箱</h4>
+                <div class="ui inverted link list">
+                    <a href="#" class="item m-text-thin m-text-spaced m-opacity-mini">873383099@qq.com</a>
+                </div>
+            </div>
+            <div class="five wide column">
+                <h4 class="m-text-thin m-text-spaced">财富寄语：</h4>
+                <p class="m-text-thin m-text-spaced m-opacity-mini">每个人最大的一笔财富，就是他自己！</p>
+            </div>
+        </div>
+    <div class="ui inverted section divider"></div>
+    <p class="m-text-thin m-text-spaced m-opacity-tiny">Copyright @2016 - 2020 Liang Song Designed by Liang Song</p>
+    </div>
+    </div>
+</footer>
+
+<!--/*/<th:block th:replace="_fragments :: script">/*/-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.js"></script>
+    <script src="//unpkg.com/vue/dist/vue.js"></script>
+    <script src="//unpkg.com/element-ui@2.13.0/lib/index.js"></script>
+<!--/*/</th:block>/*/-->
+
+<script>
+    $('.menu.toggle').click(function(){
+        $('.m-item').toggleClass('m-mobile-hide')
+    });
+    $('.ui.dropdown').dropdown();
+</script>
+<!-- 引入样式 -->
+
+<!-- 引入组件库 -->
+<script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</body>
+</html>

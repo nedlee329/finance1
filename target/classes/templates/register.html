@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head th:replace="_fragments :: head(~{::title})">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>用户注册</title>
+    <<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/semantic-ui@2.4.2/dist/semantic.min.css">
+    <link rel="stylesheet" href="../static/css/me.css">
+    <style>
+        html {
+            height: 96%;
+            overflow: auto;
+        }
+
+        body {
+            min-height: 96%;
+        }
+
+        footer {
+            position: absolute !important;;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+<br>
+<br>
+<br>
+<div class="m-container-small m-padded-tb-massive" style="max-width: 30em !important;">
+    <div class="ur container">
+        <div class="ui middle aligned center aligned grid">
+            <div class="column">
+                <h2 class="ui teal image header">
+                    <div class="content">
+                        用户注册
+                    </div>
+                </h2>
+                <form class="ui large form" method="post" action="/user/register">
+                    <div class="ui  segment">
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="username" placeholder="请输入用户名，2~12个字符(必填)">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="password" placeholder="请输入密码，6~16个字符(必填)">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="lock icon"></i>
+                                <input type="password" name="confirmedPassword"
+                                       placeholder="请输入确认密码(必填)">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="user icon"></i>
+                                <input type="text" name="nickname" placeholder="请输入昵称，2~12个字符(必填)">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <div class="ui fluid selection dropdown">
+                                    <input type="hidden" name="gender">
+                                    <i class="dropdown icon"></i>
+                                    <div class="default text">请输入性别(必填)</div>
+                                    <div class="menu">
+                                        <div class="item" data-value="1">男</div>
+                                        <div class="item" data-value="0">女</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="mail icon"></i>
+                                <input type="text" name="email" placeholder="请输入邮箱">
+                            </div>
+                        </div>
+                        <div class="field">
+                            <div class="ui left icon input">
+                                <i class="phone icon"></i>
+                                <input type="text" name="telephone" placeholder="请输入手机号">
+                            </div>
+                        </div>
+                        <button class="ui fluid large teal submit button">注 册</button>
+                    </div>
+
+                    <div class="ui error mini message"></div>
+
+                    <span>已有账号？<a href="/user/toLoginPage">去登录</a></span>
+                </form>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.2/dist/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/semantic-ui/2.2.4/semantic.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js"></script>
+<script src="/lib/prism/prism.js"></script>
+<script src="/lib/tocbot/tocbot.min.js"></script>
+<script src="/lib/qrcode/qrcode.min.js"></script>
+<script src="/lib/waypoints/jquery.waypoints.min.js"></script>
+<script src="/lib/editormd/editormd.min.js"></script>
+<script>
+    $('#newblog-container').load(/*/footer/newblog*/"/footer/newblog");
+</script>
+<script>
+    $('.ui.dropdown').dropdown({
+        on: 'hover'
+    });
+</script>
+<!--记录网站运行时间-->
+<script>
+    function secondToDate(second) {
+        if (!second) {
+            return 0;
+        }
+        var time = new Array(0, 0, 0, 0, 0);
+        if (second >= 365 * 24 * 3600) {
+            time[0] = parseInt(second / (365 * 24 * 3600));
+            second %= 365 * 24 * 3600;
+        }
+        if (second >= 24 * 3600) {
+            time[1] = parseInt(second / (24 * 3600));
+            second %= 24 * 3600;
+        }
+        if (second >= 3600) {
+            time[2] = parseInt(second / 3600);
+            second %= 3600;
+        }
+        if (second >= 60) {
+            time[3] = parseInt(second / 60);
+            second %= 60;
+        }
+        if (second > 0) {
+            time[4] = second;
+        }
+        return time;
+    }
+
+    function setTime() {
+        /*此处为网站的创建时间*/
+        var create_time = Math.round(new Date(Date.UTC(2020, 2, 15, 0, 0, 0)).getTime() / 1000);
+        var timestamp = Math.round((new Date().getTime() + 8 * 60 * 60 * 1000) / 1000);
+        currentTime = secondToDate((timestamp - create_time));
+        currentTimeHtml = '本站已运行：' + currentTime[0] + '年' + currentTime[1] + '天'
+            + currentTime[2] + '时' + currentTime[3] + '分' + currentTime[4]
+            + '秒';
+        document.getElementById("htmer_time").innerHTML = currentTimeHtml;
+    }
+
+    setInterval(setTime, 1000);
+</script>
+<script>
+    //点赞/取消点赞
+    function thumbsUp(blogId, obj) {
+        var title = $(obj).attr('title');
+        var flag = (title == "点赞");
+        $.ajax({
+            url: "/thumbsUp",    //请求的url地址
+            async: false,//请求是否异步，默认为异步，这也是ajax重要特性
+            data: {
+                "blogId": blogId,
+                "flag": flag
+            },    //参数值
+            type: "post",   //请求方式
+            success: function (data) {
+                if (data == "success") {
+                    if (flag == true) {
+                        $(obj).find('i').attr('class', 'thumbs up teal icon');
+                        $(obj).attr('title', '取消点赞');
+                        var text = $(obj).find('span').text() * 1 + 1;
+                        $(obj).find('span').html(text);
+                    } else {
+                        $(obj).find('i').attr('class', 'thumbs up outline icon');
+                        $(obj).attr('title', '点赞');
+                        var text = $(obj).find('span').text() * 1 - 1;
+                        $(obj).find('span').html(text);
+                    }
+                } else if (data == "toLogin") {
+                    alert("您需要登录才能点赞！");
+                } else {
+                    alert("系统错误！")
+                }
+            }
+        });
+    }
+</script>
+
+<script>
+    $('.ui.radio.checkbox')
+        .checkbox()
+    ;
+</script>
+
+
+<script>
+    $('.ui.form').form({
+        fields: {
+            username: {
+                identifier: 'username',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入登录用户名'
+                    },
+                    {
+                        type: 'minLength[2]',
+                        prompt: '登录用户名长度应为2~12位'
+                    }
+                    ,
+                    {
+                        type: 'maxLength[12]',
+                        prompt: '登录用户名长度应为2~12位'
+                    }
+                ]
+            },
+            password: {
+                identifier: 'password',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入密码'
+                    },
+                    {
+                        type: 'minLength[6]',
+                        prompt: '密码长度应为6~16位'
+                    },
+                    {
+                        type: 'maxLength[16]',
+                        prompt: '密码长度应为6~16位'
+                    }
+                ]
+            },
+            confirmedPassword: {
+                identifier: 'confirmedPassword',
+                rules: [
+                    {
+                        type: 'match[password]',
+                        prompt: '确认密码与密码输入不一致'
+                    }
+                ]
+            },
+            nickname: {
+                identifier: 'nickname',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入昵称'
+                    },
+                    {
+                        type: 'minLength[2]',
+                        prompt: '昵称长度应为2~12位'
+                    }
+                    ,
+                    {
+                        type: 'maxLength[10]',
+                        prompt: '昵称长度应为2~12位'
+                    }
+                ]
+            },
+            gender: {
+                identifier: 'gender',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入性别'
+                    }
+                ]
+            },
+            email: {
+                identifier: 'email',
+                rules: [
+                    {
+                        type: 'empty',
+                        prompt: '请输入邮箱'
+                    },
+                    {
+                        type: 'email',
+                        prompt: '请输入正确的邮箱地址'
+                    }
+                ]
+            },
+            telephone: {
+                identifier: 'telephone',
+                optional: true,
+                rules: [
+                    {
+                        type: 'regExp',
+                        value: '/^[1]([3-9])[0-9]{9}$/',
+                        prompt: '请输入正确的联系方式'
+                    }
+                ]
+            }
+        }
+    });
+</script>
+
+</body>
+</html>
